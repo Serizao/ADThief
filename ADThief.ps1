@@ -609,6 +609,7 @@ using System;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.IO.FileSystem.AccessControl;
+using System.Security.AccessControl;
 
 public class Win32
 {
