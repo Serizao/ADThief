@@ -16,6 +16,10 @@ function Add-DSAccountCustomViews {
     <CustomEntries>
       <CustomEntry>
         <CustomItem>
+	  <ExpressionBinding>
+            <PropertyName>Enabled</PropertyName>
+          </ExpressionBinding>
+          <Text>;</Text>
           <ExpressionBinding>
             <PropertyName>DistinguishedName</PropertyName>
             <CustomControlName>Domain</CustomControlName>
